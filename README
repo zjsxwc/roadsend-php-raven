@@ -75,7 +75,7 @@ Note that an in-tree build is not recommended, you should create a separate buil
 == Sample Checkout and Build Session ==
 
 Assuming you have the prerequisites installed, a sample checkout and build session might look like this:
-~$ sudo apt install clang
+~$ sudo apt install  llvm doxygen clang
 ~$ cd rphp
 ~rphp/$ mkdir build
 ~rphp/$ cd build
